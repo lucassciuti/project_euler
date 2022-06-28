@@ -1,10 +1,3 @@
-def is_multiple_of_3(i):
-    return i % 3 == 0
-
-
-def is_multiple_of_5(i):
-    return i % 5 == 0
-
 
 def get_multipliers(m, n, number):
     multiples = [] 
