@@ -3,7 +3,7 @@ def get_even_fib(threshold):
     evens = [2]
     while fib[-1] < threshold:
         new = fib[-1] + fib[-2]
-        fib.append(fib[-1] + fib[-2])
+        fib.append(new)
         if new % 2 == 0:
             evens.append(new)
     print(sum(evens))
